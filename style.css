@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* estilo geral */
+/* ESTILO GERAL */
 * {
     margin: 0;
     padding: 0;
@@ -44,12 +44,12 @@ h2.titulo span {
     color: rgb(192, 95, 95);
 }
 
-button:hover {
+button:hover, form .btn-enviar input[type=submit]:hover {
     box-shadow: 0px 0px 8px rgb(192, 95, 95);
     transform: scale(1.05);
 }
 
-/* estilo do cabeçalho */
+/* ESTILO DO CABEÇALHO */
 header {
     padding: 40px 4%;
 }
@@ -84,7 +84,7 @@ header nav ul li {
     padding: 0 40px;
 }
 
-/* estilo do topo do site */
+/* ESTILO DO TOPO DO SITE */
 section.topo-do-site {
     padding: 40px 4%;
 }
@@ -127,7 +127,7 @@ section.topo-do-site .flex {
     }
 }
 
-/* estilo das especialidades */
+/* ESTILO DAS ESPECIALIDADES */
 section.especialidades {
     padding: 40px 4%;
 }
@@ -160,7 +160,7 @@ section.especialidades .flex {
     margin: 15px 0;
 }
 
-/* estilo do sobre */
+/* ESTILO DO SOBRE */
 section.sobre {
     padding: 80px 4%;
 }
@@ -206,10 +206,10 @@ section.sobre img {
     height: 600px;
 }
 
-/* estilo do portfólio */
+/* ESTILO DO PORTFÓLIO */
 section.portfolio {
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px rgb(192, 95, 95);
+    box-shadow: 0 0 40px 10px rgba(192, 95, 95, 0.616);
 }
 
 section.portfolio .flex {
@@ -254,3 +254,50 @@ section.portfolio .flex {
 .overlay:hover {
     opacity: 1;
 }
+
+/* ESTILO DO FORMULÁRIO */
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input[type=submit] {
+    width: 120px;
+    background-color: rgb(192, 95, 95);
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/* ESTILO DO RODAPÉ */
