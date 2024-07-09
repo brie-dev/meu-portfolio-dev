@@ -73,6 +73,7 @@ header a {
     text-decoration: none;
     display: inline-block
 }
+
 header nav.menu-desktop a:hover {
     color: #fff;
     transform: scale(1.05);
