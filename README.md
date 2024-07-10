@@ -20,5 +20,5 @@ Esse projeto foi criado com o objetivo de apresentar a mim, Gabrielle, um pouco 
 <h2>Projeto - Tela de Computador</h2>
 <img src="https://github.com/brie-dev/meu-portfolio-dev/assets/174830266/a2385fc2-b155-45d0-b3a2-b943566ca592" height= "1200"></img>
 
-<h2>Projeto - Tela de Computador</h2>
+<h2>Projeto - Tela de Celular</h2>
 <img src="https://github.com/brie-dev/meu-portfolio-dev/assets/174830266/1bc65ada-e39f-466c-b15d-b54b5625803d" height= "1500"> </img> 
