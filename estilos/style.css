@@ -255,7 +255,7 @@ section.sobre {
 
 .sobre .txt-sobre p {
     margin: 20px 0;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .btn-social button {
